@@ -32,12 +32,14 @@ header{
 	
 }
 
-#hero h1{
+#hero h1, 
+#slides h1{
 	font-size: 70px;
 	font-weight: 700;
 }
 
-#hero h2{
+#hero h2, 
+#slides h2{
 	font-size: 24px;
 	margin-top:  40px;
 	margin-bottom: 60px; 
@@ -45,12 +47,14 @@ header{
 }
 
 #hero .btn, 
-#products .btn{
+#products .btn, 
+.btn-azul{
 	text-transform: uppercase;
 	padding: 20px 40px;
 	font-weight: 400;
 	letter-spacing: 1px;
 	border-radius: 40px;
+	color: #fff;
 }
 
 .title{
@@ -124,4 +128,91 @@ header{
 	
 	font-size: 13px;
 	letter-spacing: 10px;
+}
+
+.content{
+	padding:  10% 15%
+}
+
+.content .title{
+	
+	text-align:left;
+
+		font-weight:500px;
+	
+	font-size: 40px;
+	color: #303132;
+	margin-bottom:30px;
+}
+
+.content p{
+	
+	font-size: 20px;
+}
+
+.conent .btn{
+	
+	margin-top: 30px;
+}
+.bg-story{
+	background-image: url("../img/v36-intro.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bg-story2{
+	background-image: url("../img/Rectangle-12-Copy.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#about-icons{
+	background-color: #101011;	
+}
+
+#about-icons h3{
+	
+	color: #fff;
+	font-size: 20px;
+}
+
+#about-icons p{
+	font-size: 16px;
+}
+
+#about-icons i{
+	font-size: 32px;
+	color: #4859fc;
+}
+
+#about-icons .row{
+	margin-bottom: 3%;
+}
+
+footer{
+	padding: 5% 0;
+}
+
+footer #info h3{
+	
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight:600;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+}
+
+footer #copy{
+	
+	border-top: 1px solid #ddd;
+	text-align: center;
+	padding: 40px 0;
+}
+
+footer #info a{
+	
+	color: #303132;
 }
